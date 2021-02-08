@@ -1,0 +1,423 @@
+@media only screen and (max-width: 1200px) {
+  #topBar {
+    height: auto;
+  }
+  #topBar .container {
+    width: 80%;
+    padding: 0.5rem 0;
+  }
+  #topBar .container .leftSide {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  #logo .container {
+    width: 90%;
+  }
+
+  #wwdo {
+    height: auto;
+  }
+  #wwdo .container {
+    width: 90%;
+  }
+  #wwdo .container .top .left h1 {
+    font-size: 2rem;
+  }
+  #wwdo .container .bottom .card .img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #video {
+    background: linear-gradient(90deg, #030303 66%, #fff 65%);
+  }
+  #video .container {
+    width: 90%;
+  }
+  #video .container .exp .left .content h1, #video .container .exp .right .content h1 {
+    font-size: 2.5rem;
+  }
+
+  #gallery .container, #events .container, #news .container {
+    width: 90%;
+  }
+  #gallery .container .content .des h1, #events .container .content .des h1, #news .container .content .des h1 {
+    font-size: 1rem;
+  }
+  #gallery .container .content .des .goal, #events .container .content .des .goal, #news .container .content .des .goal {
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1rem 0;
+  }
+  #gallery .container .content .des a, #events .container .content .des a, #news .container .content .des a {
+    width: 10rem;
+  }
+
+  #banner .container, #contact .container, #footer .container, #volunteer .container,
+#aboutdes .container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 886px) {
+  #logo {
+    height: auto;
+  }
+  #logo .container {
+    padding: 0.5rem 0;
+  }
+  #logo .container .logoSec {
+    flex-direction: column;
+  }
+  #logo .container .logoSec .logo {
+    width: 100%;
+    padding: 1rem 0;
+    flex-direction: row;
+    margin-bottom: 1rem;
+  }
+  #logo .container .logoSec .logo i {
+    display: block;
+    cursor: pointer;
+  }
+  #logo .container .logoSec ul.blockon {
+    display: block;
+  }
+  #logo .container .logoSec ul {
+    flex-direction: column;
+    transition: 0.6s;
+    display: none;
+  }
+  #logo .container .logoSec ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  #logo .container .logoSec ul li a {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  #wwdo {
+    height: auto;
+  }
+  #wwdo .container {
+    width: 90%;
+  }
+  #wwdo .container .top .left h1 {
+    font-size: 2rem;
+  }
+  #wwdo .container .bottom .card .img {
+    width: 150px;
+    height: 150px;
+  }
+
+  #banner .container a {
+    width: 40%;
+  }
+
+  #contact .container .right form input, #contact .container .right form textarea {
+    width: 100%;
+  }
+
+  #aboutdes .container .left, #aboutdes .container .right {
+    width: 90%;
+  }
+  #aboutdes .container .left {
+    margin-bottom: 3rem;
+  }
+
+  #volunteer .container .content {
+    flex-direction: column;
+  }
+  #volunteer .container .content .left, #volunteer .container .content .right {
+    width: 90%;
+  }
+  #volunteer .container .content .left .card .img, #volunteer .container .content .right .card .img {
+    height: 20rem;
+  }
+  #volunteer .container .content .left {
+    margin-bottom: 3rem;
+  }
+  #volunteer .container a {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 810px) {
+  #landing .container h1 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 786px) {
+  #topBar {
+    height: auto;
+  }
+  #topBar .container {
+    width: 95%;
+    padding: 0.5rem 0;
+  }
+  #topBar .container .leftSide {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #wwdo {
+    height: auto;
+  }
+  #wwdo .container {
+    width: 90%;
+    height: auto;
+  }
+  #wwdo .container .top {
+    flex-direction: column;
+    height: auto;
+  }
+  #wwdo .container .top .left {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #wwdo .container .top .left h1 {
+    font-size: 1.5rem;
+  }
+  #wwdo .container .top .right p {
+    text-align: center;
+  }
+  #wwdo .container .bottom {
+    flex-direction: column;
+  }
+  #wwdo .container .bottom .first {
+    margin-bottom: 3rem !important;
+  }
+  #wwdo .container .bottom .card {
+    margin-bottom: 3rem;
+    margin-left: 0;
+  }
+  #wwdo .container .bottom .card .img {
+    width: 100%;
+    height: 80%;
+  }
+  #wwdo .container .bottom .card .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #video {
+    background: linear-gradient(90deg, #030303 65%, #fff 65%);
+  }
+  #video .container .exp .left .content, #video .container .exp .right .content {
+    width: 90%;
+  }
+  #video .container .exp .left .content h1, #video .container .exp .right .content h1 {
+    font-size: 2rem;
+  }
+  #video .container .exp .left .content p, #video .container .exp .right .content p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #gallery .container .header h1 {
+    font-size: 1.5rem;
+  }
+  #gallery .container .content div {
+    flex-direction: column;
+  }
+  #gallery .container .content div img {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2.5rem;
+    height: 30vh;
+  }
+  #gallery .container .content div.middle {
+    margin: 0;
+  }
+  #gallery .container .content div.bottom {
+    flex-direction: column;
+  }
+  #gallery .container .content div.bottom img {
+    width: 100%;
+  }
+
+  #gallery .container .content, #events .container .content, #news .container .content {
+    flex-direction: column;
+  }
+  #gallery .container .content .card, #events .container .content .card, #news .container .content .card {
+    width: 70%;
+    margin-bottom: 5rem;
+  }
+  #gallery .container .content .card .img, #events .container .content .card .img, #news .container .content .card .img {
+    height: 40vh;
+  }
+  #gallery .container .content .des h1, #events .container .content .des h1, #news .container .content .des h1 {
+    font-size: 1rem;
+  }
+  #gallery .container .content .des .goal, #events .container .content .des .goal, #news .container .content .des .goal {
+    flex-direction: row;
+  }
+  #gallery .container .content .des a, #events .container .content .des a, #news .container .content .des a {
+    width: 20rem;
+  }
+
+  #banner .container a {
+    width: 40%;
+  }
+
+  #contact {
+    background: linear-gradient(180deg, #fff 45%, #f8a74a 45%);
+  }
+  #contact .container {
+    flex-direction: column;
+  }
+  #contact .container .left, #contact .container .right {
+    width: 80%;
+  }
+  #contact .container .left {
+    margin-bottom: 7rem;
+  }
+  #contact .container .right form input, #contact .container .right form textarea {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 620px) {
+  #topBar {
+    height: auto;
+  }
+  #topBar .container {
+    width: 95%;
+    flex-direction: column;
+    padding: 0.8rem 0;
+  }
+  #topBar .container .leftSide {
+    flex-direction: row;
+    margin-bottom: 1rem;
+  }
+  #topBar .container .rightSide .links .first {
+    margin-left: 0;
+  }
+
+  #footer .container {
+    width: 90%;
+    flex-direction: column;
+  }
+  #footer .container .left, #footer .container .middle, #footer .container .bottom {
+    width: 90%;
+    margin-top: 1rem;
+  }
+  #footer .container .middle .quicklink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #footer .container .middle .quicklink h1 {
+    font-size: 1rem;
+  }
+  #footer .container .middle .quicklink i {
+    display: block;
+    cursor: pointer;
+  }
+  #footer .container .middle ul.blockon {
+    display: block;
+  }
+  #footer .container .middle ul {
+    display: none;
+  }
+  #footer .container .bottom .subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #footer .container .bottom .subscribe i {
+    display: block;
+    cursor: pointer;
+  }
+  #footer .container .bottom form.blockon {
+    display: block;
+  }
+  #footer .container .bottom form {
+    display: none;
+  }
+  #footer .container .bottom form input {
+    width: 100%;
+  }
+
+  #aboutdes .container {
+    flex-direction: column;
+  }
+
+  #volunteer .container .header h1 {
+    font-size: 2rem;
+  }
+  #volunteer .container .content .left, #volunteer .container .content .right {
+    flex-direction: column;
+  }
+  #volunteer .container .content .left .card, #volunteer .container .content .right .card {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  #volunteer .container .content .left .card .img, #volunteer .container .content .right .card .img {
+    height: 25rem;
+  }
+  #volunteer .container .content .left {
+    margin-bottom: 3rem;
+  }
+  #volunteer .container a {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 556px) {
+  #gallery .container .content .des a, #events .container .content .des a, #news .container .content .des a {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  #topBar {
+    height: auto;
+  }
+  #topBar .container {
+    width: 95%;
+    flex-direction: column;
+    padding: 0.8rem 0;
+  }
+  #topBar .container .leftSide {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  #topBar .container .rightSide .links .first {
+    margin-left: 0;
+  }
+
+  #video {
+    background: #030303;
+  }
+  #video .container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  #video .container video {
+    width: 100%;
+    height: 100%;
+  }
+  #video .container .exp {
+    flex-direction: column;
+  }
+  #video .container .exp .left {
+    margin-bottom: 3rem;
+  }
+  #video .container .exp .left, #video .container .exp .right {
+    width: 100%;
+  }
+  #video .container .exp .left .content h1, #video .container .exp .right .content h1 {
+    font-size: 2rem;
+  }
+  #video .container .exp .left .content p, #video .container .exp .right .content p {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=mediaquery.css.map */
